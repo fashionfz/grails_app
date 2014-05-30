@@ -1,0 +1,45 @@
+/* CSS Document */
+
+div.sample_popup { z-index: +1; border-radius: 3px;border: 1px solid #45494d;}
+div.menu_form_header{
+cursor:move
+}
+div.sample_popup div.menu_form_header
+{
+border-bottom: 0px;
+cursor: default;
+cursor:move;
+width: 700px;
+height: 32px;
+line-height:32px;
+vertical-align: middle;
+background:#45494d;
+color:#FFF;
+text-decoration: none;
+font-weight: 900;
+font-size: 13px;
+padding-left:10px;
+overflow:hidden;
+
+}
+div.sample_popup div.menu_form_body
+{
+width: 710px;
+background:#FFF;
+font-size:12px;
+}
+div.sample_popup img.menu_form_exit
+{
+float: right;
+margin: 5px 5px 0px 0px;
+cursor: pointer;
+}
+
+div.sample_popup form
+{
+margin: 0px;
+padding: 8px 10px 10px 10px;
+}
+.menu_form_body a {
+text-decoration: none;
+}

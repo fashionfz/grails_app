@@ -1,0 +1,18 @@
+eventCompileEnd={
+	ant.copy(todir:"${classesDirPath}/spring/"){
+		fileset(dir:"grails-app/conf/spring"){
+			include(name:"*.xml")
+			exclude(name:"resources.groovy")
+		}
+	}
+	ant.copy(todir:"${classesDirPath}"){
+		fileset(dir:"scripts/"){
+			exclude(name:"event/")
+		}
+	}
+	ant.copy(todir:"${classesDirPath}"){
+		fileset(dir:"grails-app/conf"){
+			include(name:"Config-*.groovy")
+		}
+	}
+}

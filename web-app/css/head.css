@@ -1,0 +1,73 @@
+/* 头部样式*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.head {	
+	min-width: 980px;
+	height: 59px;
+	background: #4a6580;
+	border-bottom: 1px solid #435b73;
+	padding: 0 20px;
+}
+.head-left {
+	float: left;
+	margin-top: 20px;
+}
+.head-right {
+	float: right;
+	margin-right: 60px;
+	height: 59px;
+	line-height: 75px;
+	color:#b6bdc5;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.system_logout {
+	text-decoration: none;
+	color: #b6bdc5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

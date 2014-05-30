@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/hadoop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:beans="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop.xsd">
+        <configuration>
+        	fs.default.name=hdfs://172.16.4.94:8020
+        	outputpath=/monitor/output
+        </configuration>
+        <beans:bean id="fileSystem" class="org.springframework.data.hadoop.fs.FileSystemFactoryBean">
+        	<beans:property name="user" value="hadoop"/>
+        	<beans:property name="uri" value="hdfs://172.16.4.94:8020/"/>
+        	<beans:property name="configuration" ref="hadoopConfiguration"/>
+        </beans:bean>
+        <script id="clean-up" location="classpath:com/helome/monitor/scripts/clean-up.groovy" run-at-startup="false"></script>
+        <!-- <job id="mr-job" input-path="/abc.txt" output-path="/monitor/output/" mapper="test.Test.Map" reducer="test.Test.Reduce" jar-by-class="test.Test"/>
+       	<job-runner id="myjobs-runner" wait-for-completion="true" pre-action="clean-up" job-ref="mr-job" run-at-startup="true"/> -->
+</beans:beans>

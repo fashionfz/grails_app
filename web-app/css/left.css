@@ -1,0 +1,85 @@
+/*左边样式 */
+
+.main-menu {
+	width: 80%;	
+	height: 28px;
+	background: #666;
+	display: block;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #494949;
+	border-right: 1px solid #555;
+	padding-left: 40px;
+	line-height: 28px;
+	font-family: "Microsoft YaHei";
+	font-size: 10px;
+	color: #aaa;
+}
+.main-menu a {
+	text-decoration: none;
+	color:#aaa;
+}
+.menu-left {
+	width:87%;
+	
+}
+.menu-left a {
+	text-decoration: none;
+	color: #aaa;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	margin-left: 40px;
+}
+.menu-left>li {
+	width:115%;
+	/*height: 42px;*/
+	line-height: 40px;
+	border-top: 1px solid #5e5e5e;
+	border-bottom: 1px solid #494949;
+	
+}
+.tab {
+	width: 200px;
+	background: #5e5e5e;
+	
+}
+.tab>li {
+	width: 200px;
+	/*height: 42px;*/
+	line-height: 42px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #555;
+	/*display: none;*/
+	
+}
+.tab>li>a{
+	padding-left: 20px;
+}
+.tab>li>a.cuttents{
+	color: #e68e8a;
+}
+/*.menu>li>a {
+	background:url(../images/hide.png) no-repeat left center;
+	padding-left: 20px;
+}*/
+.menu-left li a img {
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

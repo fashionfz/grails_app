@@ -1,0 +1,36 @@
+/* CSS Document */
+body,div,h1,h2,h3,h4,h5,h6,img,span,p,i,ul,li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+}
+
+#wrap {
+	min-width: 50%;
+}
+.index-center {
+	width: 100%;
+	min-width: 50%;
+	overflow: hidden;
+}
+#left-body {
+	width:14%;	
+	float: left;	
+	background: #555;	
+}
+#right-body {
+	width: 86%;
+	float: left;
+	min-width: 51%;
+	padding: 0;
+	margin: 0;	
+	background: #dbdbdb;
+	min-height: 740px;	
+}
+
+
+
+
+
